@@ -1,0 +1,22 @@
+.main{
+    width: 90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+table{
+    width: 100%;
+}
+
+body{
+    background-color: orange;
+}
+
+#createForm{
+    display: none;
+}
+
+.id{
+    display: none;
+}
