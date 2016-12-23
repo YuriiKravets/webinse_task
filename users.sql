@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Дек 23 2016 г., 15:38
+-- Время создания: Дек 23 2016 г., 19:18
 -- Версия сервера: 5.6.17
 -- Версия PHP: 5.5.12
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `second_name` varchar(100) NOT NULL,
   `email` varchar(155) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=170 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=169 ;
 
 --
 -- Дамп данных таблицы `users`
@@ -40,13 +40,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `first_name`, `second_name`, `email`) VALUES
 (1, 'John', 'Connor', 'john.connor@gmail.com'),
-(2, 'Arnold', 'Schwarzenegger', 'schwarzenegger@gmail.com'),
-(126, 'qwerty', 'qweerty', 'qwerty123@ewqe'),
-(128, 'fsdf', 'test4', 'kravets.yurka@gmail.com'),
-(133, 'testuyh', 'treeeyh865', 'tesrt@test'),
-(166, 'test', 'test', 'tesrt@test'),
-(167, 'test', 'test4', 'werw@fggf'),
-(168, 'test', '5465', 'trt@dsf');
+(2, 'Arnold', 'Schwarzenegger', 'schwarzenegger@gmail.com');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
